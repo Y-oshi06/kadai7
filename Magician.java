@@ -11,7 +11,7 @@ public class Magician {
 	Magician(String name){
 		this.name = name;
 		this.hp = 15;
-	{
+	}
 	
 	void atack() {//攻撃
 		System.out.println(this.name + "の攻撃");
