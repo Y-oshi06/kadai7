@@ -4,6 +4,23 @@ public class hero {
 	int hp;
 	int at;
 	int df;
+
+	hero(String name,int a){
+		this.name = name;
+		this.hp = a;
+		this.at = 5;
+		
+	}
+	hero(String name,int n,int a){
+		this.name = name;
+		this.hp = n;
+		this.at = a;
+		
+	}
+	hero(){
+		System.out.println("a");
+		System.exit(0);
+	}
 	
 	void attack(){//攻撃
 		System.out.println(this.name + "の攻撃");
