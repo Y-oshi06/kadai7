@@ -5,6 +5,11 @@ public class doragon {
 	
 	int at;//攻撃力
 	int df;//防御力
+
+	doragon(String name){
+		this.name = name;
+		this.hp = 20;
+	}
 	
 	
 	void atack() {
