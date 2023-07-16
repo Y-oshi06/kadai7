@@ -7,6 +7,11 @@ public class Magician {
 	int df;//防御力
 	int MP;//魔法
 	int recovery;//回復力
+
+	Magician(String name){
+		this.name = name;
+		this.hp = 15;
+	{
 	
 	void atack() {//攻撃
 		System.out.println(this.name + "の攻撃");
