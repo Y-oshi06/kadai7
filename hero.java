@@ -17,10 +17,7 @@ public class hero {
 		this.at = a;
 		
 	}
-	hero(){
-		System.out.println("a");
-		System.exit(0);
-	}
+	
 	
 	void attack(){//攻撃
 		System.out.println(this.name + "の攻撃");
